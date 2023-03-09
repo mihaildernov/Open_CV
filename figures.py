@@ -4,7 +4,6 @@ import numpy as np
 def nothing(x):
     pass
 
-face_cascade = cv2.CascadeClassifier("C:\\Users\\Acer\\Downloads\\opencv-master\\data\\haarcascades\\haarcascade_frontalface_default.xml")
 cap = cv2.VideoCapture(0)
 
 cv2.namedWindow("track")
